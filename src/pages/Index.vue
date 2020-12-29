@@ -1,6 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
+      <h3><g-image src="~/assets/img/memoji.png" alt="home-img"/></h3>
       <h1>{{ $static.metadata.siteName }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
@@ -55,6 +56,7 @@ h1 {
   text-align: center;
   max-width: 600px;
   margin: 1.5em auto 1.5em;
+  margin-top: 0;
 
   @include respond-above(md) {
     max-width: 1000px;
@@ -64,6 +66,19 @@ h1 {
 h2 {
   font-size: 1.4rem;
   margin: 0;
+}
+
+h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  img {
+    height: 150px;
+    width: auto;
+  }
 }
 
 nav {

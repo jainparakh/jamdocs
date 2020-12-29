@@ -5,9 +5,11 @@ slug: about-me
 
 ---
 
-![New York](../static/new-york.png)
+<!-- ![New York](../static/new-york.png) -->
 
-Hi, I'm Parakh. And I live in NYC!
+Waiting on a technology that lets me download food.
+
+Until then, I’m a Product Manager living in NYC that’s a total tech geek and loves building products that inspire and challenge me.
 
 ## Career
 
