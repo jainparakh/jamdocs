@@ -4,7 +4,7 @@
       <h1>{{ $static.metadata.siteName }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/introduction" text="About Me" icon="play-icon" />
+        <Shortcut link="/about-me" text="About Me" icon="play-icon" />
         <Shortcut link="https://twitter.com/jainparakh" text="Twitter" icon="twitter-icon" />
         <Shortcut link="https://linkedin.com/in/jainparakh/" text="LinkedIn" icon="linkedin-icon" />
       </nav>
