@@ -37,7 +37,7 @@ module.exports = {
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: (process.env.GA_ID ? process.env.GA_ID : 'G-8VRHFDZ5CN')
+        id: (process.env.GA_ID ? process.env.GA_ID : 'UA-186208582-1')
       }
     },
     {
