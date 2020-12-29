@@ -1,6 +1,6 @@
 <template>
   <header class="header" :class="{'header--scrolled' : pageScrolled}">
-    <Logo :color="logoColor" />
+    <Logo :show="menuToggle"/>
     <nav class="nav">
       <ThemeSwitch v-on:theme-change="updateLogo" />
       <MenuToggle v-if="menuToggle" />
@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       pageScrolled: false,
-      logoColor: 'bright'
+      logoColor: 'dark'
     }
   },
   methods: {

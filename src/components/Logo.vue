@@ -1,13 +1,8 @@
 <template>
   <g-link to="/" class="logo" title="Back to home">
     <transition name="theme">
-      <div v-if="color == 'dark'">
-        <g-image src="~/assets/img/logo-bright.svg" alt="logo" />
-      </div>
-    </transition>
-    <transition name="theme">
-      <div v-if="color == 'bright'">
-        <g-image src="~/assets/img/logo-dark.svg" alt="logo" />
+      <div v-if=show>
+        <g-image src="~/assets/img/memoji.png" alt="logo" />
       </div>
     </transition>
   </g-link>
@@ -18,6 +13,10 @@ export default {
   props: {
     color: {
       type: String,
+      required: false
+    },
+    show: {
+      type: Boolean,
       required: true
     }
   }
@@ -26,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .logo {
-  height: 40px;
+  height: 50px;
   display: block;
   transition: color .15s ease-in-out;
   color: $textBright;
@@ -34,7 +33,7 @@ export default {
   perspective: 200px;
 
   div {
-    height: 40px;
+    height: 60px;
     position: absolute;
     top: 0;
     left: 0;

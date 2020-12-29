@@ -16,8 +16,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Jamdocs',
-  siteUrl: 'https://jamdocs.samuelhorn.com',
+  siteName: 'Parakh Jain',
+  siteUrl: 'https://parakhjain.com',
   templates: {
     Doc: '/:slug',
   },
