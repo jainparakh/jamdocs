@@ -5,7 +5,7 @@ slug: about-me
 
 ---
 
-![New York](https://github.com/jainparakh/jamdocs/blob/master/src/assets/img/new-york.png)
+![New York](../static/new-york.png)
 
 Hi, I'm Parakh. And I live in NYC!
 
