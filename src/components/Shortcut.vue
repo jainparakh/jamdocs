@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import { PlayIcon, TwitterIcon, LinkedinIcon } from 'vue-feather-icons'
+import { TwitterIcon, LinkedinIcon, UserIcon } from 'vue-feather-icons'
 
 export default {
   components: {
-    PlayIcon,
     TwitterIcon,
-    LinkedinIcon
+    LinkedinIcon,
+    UserIcon
   },
   props: {
     link: {
